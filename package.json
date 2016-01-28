@@ -12,5 +12,8 @@
     "eslint": "^1.10.3",
     "eslint-loader": "^1.2.1",
     "webpack": "^2.0.5-beta"
+  },
+  "dependencies": {
+    "vue": "^1.0.15"
   }
 }
