@@ -39,14 +39,27 @@
 /******/ 	// __webpack_public_path__
 /******/ 	__webpack_require__.p = "";
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
 /***/ function(module, exports) {
 
-	document.write("Hello webpack");
+	module.exports = function(msg) {
+		document.write("[print]" + msg);
+	};
+
+
+
+/***/ },
+/* 1 */
+/***/ function(module, exports, __webpack_require__) {
+
+	//document.write("Hello webpack");
+	var print = __webpack_require__(0);
+	print("Hello webpack!!!");
+
 
 
 /***/ }
