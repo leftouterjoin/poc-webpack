@@ -10,6 +10,7 @@
 ```bash
 npm install webpack -g
 npm install --save-dev eslint-loader
+npm install -g eslint   # 直接叩きたい場合
 ```
 
 ### ■■プロジェクト
